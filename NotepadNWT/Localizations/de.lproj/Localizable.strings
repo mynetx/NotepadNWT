@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  NotepadNWT
+
+  Created by Joachim on 25.11.21.
+  
+*/
+
+"alert_not_implemented_text" = "Diese Funktion wurde noch nicht programmiert.";

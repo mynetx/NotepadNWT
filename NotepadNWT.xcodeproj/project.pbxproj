@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		88411AC1274B1D0800556EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88411AC0274B1D0800556EDA /* AppDelegate.swift */; };
 		88411AC3274B1D0800556EDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88411AC2274B1D0800556EDA /* SceneDelegate.swift */; };
-		88411AC5274B1D0800556EDA /* NotesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88411AC4274B1D0800556EDA /* NotesList.swift */; };
+		88411AC5274B1D0800556EDA /* NotesNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88411AC4274B1D0800556EDA /* NotesNav.swift */; };
 		88411AC8274B1D0800556EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88411AC6274B1D0800556EDA /* Main.storyboard */; };
 		88411ACB274B1D0800556EDA /* NotepadNWT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 88411AC9274B1D0800556EDA /* NotepadNWT.xcdatamodeld */; };
 		88411ACD274B1D0A00556EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88411ACC274B1D0A00556EDA /* Assets.xcassets */; };
 		88411AD0274B1D0A00556EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88411ACE274B1D0A00556EDA /* LaunchScreen.storyboard */; };
+		886F9291275011A90053F070 /* AboutThisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886F9290275011A90053F070 /* AboutThisApp.swift */; };
+		886F9295275017550053F070 /* NotesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886F9294275017550053F070 /* NotesList.swift */; };
+		886F92982750190F0053F070 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886F92972750190F0053F070 /* Helper.swift */; };
+		886F929C27501ADE0053F070 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 886F929E27501ADE0053F070 /* Localizable.strings */; };
 		88AD032F274BA0700030B5BD /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88AD032E274BA0700030B5BD /* CloudKit.framework */; };
 		88C8F383274B252F00AAF262 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F382274B252F00AAF262 /* Preferences.swift */; };
 		88C8F386274B27C000AAF262 /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C8F385274B27C000AAF262 /* DismissSegue.swift */; };
@@ -23,12 +27,20 @@
 		88411ABD274B1D0800556EDA /* NotepadNWT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotepadNWT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88411AC0274B1D0800556EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88411AC2274B1D0800556EDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88411AC4274B1D0800556EDA /* NotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesList.swift; sourceTree = "<group>"; };
+		88411AC4274B1D0800556EDA /* NotesNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesNav.swift; sourceTree = "<group>"; };
 		88411AC7274B1D0800556EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88411ACA274B1D0800556EDA /* NotepadNWT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotepadNWT.xcdatamodel; sourceTree = "<group>"; };
 		88411ACC274B1D0A00556EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88411ACF274B1D0A00556EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88411AD1274B1D0A00556EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886F928B275007D80053F070 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		886F928F2750102D0053F070 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		886F9290275011A90053F070 /* AboutThisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutThisApp.swift; sourceTree = "<group>"; };
+		886F9293275012810053F070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		886F9294275017550053F070 /* NotesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesList.swift; sourceTree = "<group>"; };
+		886F92972750190F0053F070 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		886F929D27501ADE0053F070 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		886F929F27501AE30053F070 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		88AD032C274BA0690030B5BD /* NotepadNWT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotepadNWT.entitlements; sourceTree = "<group>"; };
 		88AD032E274BA0700030B5BD /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
 		88C8F382274B252F00AAF262 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
@@ -72,11 +84,29 @@
 				88C8F37C274B1DD200AAF262 /* Controllers */,
 				88C8F37D274B1ED200AAF262 /* Views */,
 				88C8F384274B27A300AAF262 /* Segues */,
+				886F9296275018F30053F070 /* Helpers */,
 				88AD0332274BA2910030B5BD /* Assets */,
+				886F929927501A6A0053F070 /* Localizations */,
 				88411AD1274B1D0A00556EDA /* Info.plist */,
 				88AD032C274BA0690030B5BD /* NotepadNWT.entitlements */,
 			);
 			path = NotepadNWT;
+			sourceTree = "<group>";
+		};
+		886F9296275018F30053F070 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				886F92972750190F0053F070 /* Helper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		886F929927501A6A0053F070 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				886F929E27501ADE0053F070 /* Localizable.strings */,
+			);
+			path = Localizations;
 			sourceTree = "<group>";
 		};
 		88AD032D274BA0700030B5BD /* Frameworks */ = {
@@ -107,8 +137,10 @@
 		88C8F37C274B1DD200AAF262 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				88411AC4274B1D0800556EDA /* NotesList.swift */,
+				88411AC4274B1D0800556EDA /* NotesNav.swift */,
+				886F9294275017550053F070 /* NotesList.swift */,
 				88C8F382274B252F00AAF262 /* Preferences.swift */,
+				886F9290275011A90053F070 /* AboutThisApp.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -180,6 +212,7 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = 88411AB4274B1D0800556EDA;
 			productRefGroup = 88411ABE274B1D0800556EDA /* Products */;
@@ -197,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88411AD0274B1D0A00556EDA /* LaunchScreen.storyboard in Resources */,
+				886F929C27501ADE0053F070 /* Localizable.strings in Resources */,
 				88411ACD274B1D0A00556EDA /* Assets.xcassets in Resources */,
 				88411AC8274B1D0800556EDA /* Main.storyboard in Resources */,
 			);
@@ -209,12 +243,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88411AC5274B1D0800556EDA /* NotesList.swift in Sources */,
+				88411AC5274B1D0800556EDA /* NotesNav.swift in Sources */,
+				886F9291275011A90053F070 /* AboutThisApp.swift in Sources */,
 				88411AC1274B1D0800556EDA /* AppDelegate.swift in Sources */,
 				88C8F383274B252F00AAF262 /* Preferences.swift in Sources */,
 				88411AC3274B1D0800556EDA /* SceneDelegate.swift in Sources */,
+				886F92982750190F0053F070 /* Helper.swift in Sources */,
 				88411ACB274B1D0800556EDA /* NotepadNWT.xcdatamodeld in Sources */,
 				88C8F386274B27C000AAF262 /* DismissSegue.swift in Sources */,
+				886F9295275017550053F070 /* NotesList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +262,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				88411AC7274B1D0800556EDA /* Base */,
+				886F928F2750102D0053F070 /* de */,
+				886F9293275012810053F070 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -233,8 +272,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				88411ACF274B1D0A00556EDA /* Base */,
+				886F928B275007D80053F070 /* de */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		886F929E27501ADE0053F070 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886F929D27501ADE0053F070 /* en */,
+				886F929F27501AE30053F070 /* de */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -244,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -291,7 +341,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -305,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -346,7 +397,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -363,7 +414,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NotepadNWT/NotepadNWT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 66HDPLX98Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotepadNWT/Info.plist;
@@ -373,12 +424,12 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.mynetx.NotepadNWT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -394,7 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = NotepadNWT/NotepadNWT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 66HDPLX98Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotepadNWT/Info.plist;
@@ -404,12 +455,12 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.1;
+				MARKETING_VERSION = 0.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = net.mynetx.NotepadNWT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

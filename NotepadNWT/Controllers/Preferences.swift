@@ -27,12 +27,8 @@ class PreferencesController: UITableViewController {
             self.navigationController?.pushViewController(aboutThisApp!, animated: true)
             break
             
-        case 7:
-            let url = URL(string: "https://www.jw.org/")!
-            UIApplication.shared.open(url)
-            break
-            
         default:
+            Helper().alertNotImplementedYet(controller: self)
             break
         }
     }

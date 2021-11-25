@@ -1,0 +1,57 @@
+
+/* Class = "UITableViewController"; title = "Preferences"; ObjectID = "3W3-pj-saR"; */
+"3W3-pj-saR.title" = "Einstellungen";
+
+/* Class = "UILabel"; text = "Buy me a coffee"; ObjectID = "8IN-8k-f5a"; */
+"8IN-8k-f5a.text" = "Buy me a coffee";
+
+/* Class = "UITextView"; text = "When writing notes, it is convenient to have Bible verses show up automatically right away. This is exactly what NotepadNWT does. Our inspiration is the Android app NotepadJT by Jakub Tomala. We’re developing NotepadNWT with his kind permission.\n\nThe Bible texts and convention programs are taken from the content on www.jw.org.\n\nDevelopment: Joachim Rütter\nSupport, testing: Angelina Kovar"; ObjectID = "9G7-Fu-dNf"; */
+"9G7-Fu-dNf.text" = "Beim Schreiben von Notizen ist es praktisch, wenn Bibelverse gleich automatisch aufgeschlagen werden. Genau das macht NotepadNWT. Inspiration ist dabei die Android-App NotepadJT von Jakub Tomala. Wir entwickeln NotepadNWT mit seiner freundlichen Genehmigung.\n\nDie Bibeltexte und Themen der Kongresse sind den Inhalten auf www.jw.org entnommen.\n\nEntwicklung: Joachim Rütter\nUnterstützung, Tests: Angelina Kovar";
+
+/* Class = "UIBarButtonItem"; title = "Preferences"; ObjectID = "Axv-KH-Gsx"; */
+"Axv-KH-Gsx.title" = "Einstellungen";
+
+/* Class = "UILabel"; text = "Bible"; ObjectID = "Dva-3c-8vo"; */
+"Dva-3c-8vo.text" = "Bibel";
+
+/* Class = "UIBarButtonItem"; title = "New note"; ObjectID = "GYx-KH-TNz"; */
+"GYx-KH-TNz.title" = "Neue Notiz";
+
+/* Class = "UIBarButtonItem"; title = "Prefs"; ObjectID = "IkV-hu-XU1"; */
+"IkV-hu-XU1.title" = "Einst.";
+
+/* Class = "UILabel"; text = "About NotepadNWT"; ObjectID = "K08-gI-aIm"; */
+"K08-gI-aIm.text" = "Über NotepadNWT";
+
+/* Class = "UILabel"; text = "Convention and assembly programs"; ObjectID = "OLl-Hi-xpL"; */
+"OLl-Hi-xpL.text" = "Kongressprogramme";
+
+/* Class = "UINavigationController"; title = "Preferences Navigation Controller"; ObjectID = "QI5-e7-akz"; */
+"QI5-e7-akz.title" = "Preferences Navigation Controller";
+
+/* Class = "UINavigationItem"; title = "Preferences"; ObjectID = "UcM-e6-Lfu"; */
+"UcM-e6-Lfu.title" = "Einstellungen";
+
+/* Class = "UILabel"; text = "Text size"; ObjectID = "bLN-zM-egq"; */
+"bLN-zM-egq.text" = "Textgröße";
+
+/* Class = "UINavigationItem"; title = "About NotepadNWT"; ObjectID = "eKH-0H-ewO"; */
+"eKH-0H-ewO.title" = "Über NotepadNWT";
+
+/* Class = "UITableViewController"; title = "Notes"; ObjectID = "ixy-32-ptw"; */
+"ixy-32-ptw.title" = "Notizen";
+
+/* Class = "UILabel"; text = "Help"; ObjectID = "l1h-vN-Wyz"; */
+"l1h-vN-Wyz.text" = "Hilfe";
+
+/* Class = "UINavigationItem"; title = "Notes"; ObjectID = "mP9-lh-2sA"; */
+"mP9-lh-2sA.title" = "Notizen";
+
+/* Class = "UIBarButtonItem"; title = "Done"; ObjectID = "q3a-NW-bWv"; */
+"q3a-NW-bWv.title" = "Fertig";
+
+/* Class = "UIViewController"; title = "About this app"; ObjectID = "qNv-tF-Q7f"; */
+"qNv-tF-Q7f.title" = "Über NotepadNWT";
+
+/* Class = "UILabel"; text = "Layout"; ObjectID = "vX4-2S-fsy"; */
+"vX4-2S-fsy.text" = "Layout";
